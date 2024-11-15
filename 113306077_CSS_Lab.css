@@ -1,0 +1,117 @@
+/* Reset margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    color: #333;
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+    padding: 0;
+}
+
+/* Header Styles */
+header {
+    background-color: #3498db;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+header h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2em;
+    margin-bottom: 0.2em;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+/* Navigation Bar */
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    list-style-type: none;
+    margin: 0;
+}
+
+.navbar li {
+    position: relative;
+}
+
+.navbar a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+}
+
+.navbar a:hover {
+    background-color: #111;
+}
+
+/* Dropdown Menu */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown .dropbtn {
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #575757;
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+main a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+main a:hover {
+    text-decoration: underline;
+}
+
+/* Media Queries */
+@media all {
+    body {
+        background-color: #ffffff;
+    }
+}
+
+@media print {
+    body {
+        color: black;
+        background-color: white;
+    }
+}
