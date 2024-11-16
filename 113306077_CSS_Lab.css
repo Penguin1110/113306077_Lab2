@@ -12,10 +12,12 @@ body {
     font-family: Arial, sans-serif;
     padding: 0;
 }
-
+.navbar a:hover {
+    color: rgb(65, 65, 124);
+}
 /* Header Styles */
 header {
-    background-color: #3498db;
+    background-color: #59d8db;
     color: white;
     text-align: center;
     padding: 1em;
