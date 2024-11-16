@@ -1,11 +1,11 @@
-/* Reset margin and padding */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* Body styles */
+
 body {
     color: #333;
     background-color: #f9f9f9;
@@ -15,7 +15,7 @@ body {
 .navbar a:hover {
     color: rgb(65, 65, 124);
 }
-/* Header Styles */
+
 header {
     background-color: #59d8db;
     color: white;
@@ -33,7 +33,7 @@ header p {
     font-size: 1.2em;
 }
 
-/* Navigation Bar */
+
 .navbar {
     display: flex;
     justify-content: center;
